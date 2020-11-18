@@ -1,0 +1,130 @@
+.profileContainer{
+    margin-bottom: 50px;
+}
+/*nav css*/
+
+.profilenav{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 45px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.2px solid grey;
+}
+
+.iconsnav{
+    width: 25%;
+    margin-right: 10px;
+}
+.iconsnavitem {
+    margin-left: 15px;
+}
+
+.name{
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+
+/*profile css*/
+
+.profile{
+    background-color: white;
+}
+
+.profilefirst{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.stats{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.individualStats h5{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+.individualStats p{
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+}
+
+.profileImage{
+    border-radius: 100%;
+}
+
+.info{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.info h6{
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+}
+.info p{
+    max-width: 80px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+}
+
+.select{
+    background-color: white;
+    position: sticky;
+    top: 45.8px;
+    width: 100%;
+    height: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+    color: grey;
+}
+
+.selector{
+    padding-top: 2.5px;
+    color: grey;
+}
+.selector:hover{
+    color: black;
+    border-bottom: 2px solid black;
+}
+/*images css*/
+
+.photos{
+    background-color: white;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 123.67px 123.67px 123.67px;
+    grid-template-rows: 123.67px 123.67px 123.67px 123.67px 123.67px;
+    column-gap: 2px;
+    row-gap: 2px;
+    margin: 0;
+    padding: 0;
+}
+.photo img{
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,94 @@
+.miniNavProfile {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profilePost{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 2.5rem;
+}
+
+.profileImg{
+    width: 1.4rem;
+    border-radius: 100%;
+    margin-right: 0.4rem;
+}
+
+.profileName{
+    font-size: .8rem;
+}
+
+.dots{
+    padding-right: .5rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.navBottom{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconsIter{
+    padding: 0.5rem;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.itemLast{
+    padding-right: 0.5rem;
+}
+
+.infoPost{
+    padding: 0;
+    margin:0;
+    padding-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.infoPost h5, .infoPost p, .infoPost h6{
+    margin:0.2rem;
+    padding: 0;
+}
+
+.postText{
+    margin: 0.2rem 0; 
+    padding: 0;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.postText h6{
+    font-size: 0.8rem;
+}
+
+.postText p{
+    font-size: 0.9rem;
+}
+
+.seeComments{
+    font-size: 0.8rem;
+    color: grey;
+    margin: 0;
+    padding: 0;
+}
